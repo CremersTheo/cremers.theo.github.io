@@ -202,19 +202,16 @@ header >div:nth-child(2){
     background-color: black;
     width: auto;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.contact >div:nth-child(1){
-    display: inherit;
-}
+
 .contact h1{
     color: #e56d6f;
     font-size: 900%;
     padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact p{
@@ -225,10 +222,13 @@ header >div:nth-child(2){
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 100px;
 }
 
 .contact-liens p{
     justify-content: center;
+    align-items: center;
+    font-size: 200%;
 }
 
 .contact-liens img{
@@ -254,6 +254,8 @@ header >div:nth-child(2){
     font-size: 400%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .fleche{
@@ -296,7 +298,10 @@ header >div:nth-child(2){
 
 .h1_kastler{
     font-size: 400%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .projet_kastler{
@@ -335,7 +340,10 @@ header >div:nth-child(2){
 
 .h1_tournage{
     font-size: 400%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
     color: #5abbdc;
 }
 
@@ -380,7 +388,10 @@ header >div:nth-child(2){
 
 .h1_mmi{
     font-size: 400%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
     color: #ee287c;
 }
 
@@ -422,7 +433,10 @@ header >div:nth-child(2){
 
 .h1_stage{
     font-size: 400%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
     color: black;
 }
 
