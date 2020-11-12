@@ -1,0 +1,459 @@
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2{
+    color: #e56d6f;
+    font-size: 400%;
+    position: absolute;
+    top: 180px;
+    left: 427px;
+}
+
+header h1{
+    font-size: 1800%;
+}
+
+.carre_noir{
+    background-color: black;
+    color: #e56d6f;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+header >div:nth-child(2){
+    height: 500px;
+}
+
+.folio {
+    margin-top: 250px;
+}
+
+.titre{
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.presentation{
+    background-color: black;
+    width: auto;
+    height: 100vh;
+}
+
+.presentation h1{
+    color: #e56d6f;
+    font-size: 900%;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.presentation h2{
+    color: #e56d6f;
+    font-size: 
+}
+
+.presentation p{
+    color: white;
+}
+
+.presentation_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    font-size: 200%;
+    width: 900px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 150px;
+}
+
+.text a{
+    color: #e56d6f;
+    text-decoration: none;
+}
+
+.photo{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 300px;
+}
+
+.cv{
+    display: flex;
+    justify-content: center;
+    font-size: 500%;
+    margin-top: 50px;
+    text-align: center;
+}
+.cv p{
+    width: 150px;
+    border: 10px solid #e56d6f;
+}
+
+.cv p:hover{
+    background-color: #e56d6f;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.experience{
+    width: auto;
+    height: 100vh;
+    justify-items: center;
+}
+.experience h1{
+    font-size: 900%;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.infos >a{
+    border: 1px solid black;
+}
+
+.infos a{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+
+.infos img{
+    
+}
+.court-metrage{
+    background-image: url(images/logos/court-metrage.png);
+    background-position: center;
+}
+
+.insomnia{
+    background-image: url(images/logos/insomnia.png);
+    background-position: center;
+}
+
+.lefresnoy{
+    background-image: url(images/logos/fresnoy.png);
+    background-position: center;
+}
+
+.iut{
+    background-image: url(images/logos/iut.png);
+    background-position: center;
+}
+
+.kastler{
+    background-image: url(images/logos/kastler.png);
+    background-position: center;
+}
+
+.logiciels{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 170px;
+}
+
+.logiciels img{
+    width: 100px;
+    height: 100px;
+}
+
+.logiciels >img:nth-child(7){
+    width: 80px;
+}
+
+.logiciels >img:nth-child(8){
+    width: 80px;
+}
+
+.contact{
+    background-color: black;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact >div:nth-child(1){
+    display: inherit;
+}
+.contact h1{
+    color: #e56d6f;
+    font-size: 900%;
+    padding: 80px;
+}
+
+.contact p{
+    color: #e56d6f;
+}
+
+.contact-liens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-liens p{
+    justify-content: center;
+}
+
+.contact-liens img{
+    width: 150px;
+    height: 150px;
+}
+
+.mail{
+    margin-left: 100px;
+}
+
+.tel{
+    margin-right: 100px;
+}
+
+.body_insomnia{
+    background-color: black;
+    width: auto;
+}
+
+.h1_insomnia{
+    color: #ff41a0;
+    font-size: 400%;
+    display: flex;
+    align-items: center;
+}
+
+.fleche{
+    width: 5%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.projet_insomnia{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.text_insomnia{
+    font-size: 200%;
+    width: 900px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+    margin-right: 150px;
+}
+
+.text_insomnia h2{
+    color: #ffa67b;
+}
+
+.photo_insomnia{
+    background-image: url(images/logos/insomnia.png);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.body_kastler{
+    width: auto;
+}
+
+.h1_kastler{
+    font-size: 400%;
+    align-items: center;
+}
+
+.projet_kastler{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.text_kastler{
+    font-size: 200%;
+    width: 900px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+    margin-right: 150px;
+}
+
+.text_kastler h2{
+    color: black;
+}
+
+.photo_kastler{
+    background-image: url(images/photos/lycee.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    border-radius: 2%;
+}
+
+.body_tournage{
+    width: auto;
+    background-color: #dbdfe0;
+}
+
+.h1_tournage{
+    font-size: 400%;
+    align-items: center;
+    color: #5abbdc;
+}
+
+.projet_tournage{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.text_tournage{
+    font-size: 200%;
+    width: 900px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+    margin-right: 150px;
+}
+
+.text_tournage h2{
+    color: #27527d;
+}
+
+.text_tournage a{
+    text-decoration: none;
+}
+
+
+.photo_tournage{
+    background-image: url(images/photos/casting.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 2%;
+    border: 2px solid #27527d;
+}
+
+.body_mmi{
+    width: auto;
+}
+
+.h1_mmi{
+    font-size: 400%;
+    align-items: center;
+    color: #ee287c;
+}
+
+.projet_mmi{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.text_mmi{
+    font-size: 200%;
+    width: 900px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+    margin-right: 150px;
+}
+
+.text_mmi h2{
+    color: #ee287c;
+}
+
+.text_mmi a{
+    text-decoration: none;
+}
+
+.photo_mmi{
+    background-image: url(images/photos/artois.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.body_stage{
+    width: auto;
+}
+
+.h1_stage{
+    font-size: 400%;
+    align-items: center;
+    color: black;
+}
+
+.projet_stage{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.text_stage{
+    font-size: 200%;
+    width: 900px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+    margin-right: 150px;
+}
+
+.text_stage h2{
+    color: black;
+}
+
+.text_stage a{
+    text-decoration: none;
+}
+
+.photo_stage{
+    background-image: url(images/photos/lefresnoy.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+}
