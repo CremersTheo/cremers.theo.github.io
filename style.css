@@ -102,7 +102,9 @@ header >div:nth-child(2){
 .photo{
     width: 400px;
     height: 400px;
-    background-color: white;
+    background-image: url(images/photos/itsme.JPG);
+    background-position: center;
+    background-size: 150%;
     border-radius: 50%;
     margin-right: 300px;
 }
@@ -114,6 +116,12 @@ header >div:nth-child(2){
     margin-top: 50px;
     text-align: center;
 }
+
+.cv a{
+    text-decoration: none;
+    color: white;
+}
+
 .cv p{
     width: 150px;
     border: 10px solid #e56d6f;
@@ -222,7 +230,7 @@ header >div:nth-child(2){
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .contact-liens p{
@@ -258,6 +266,33 @@ header >div:nth-child(2){
     margin-top: 50px;
 }
 
+.h2_insomnia1{
+    color: #ffa67b;
+    font-size: 300%;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.h2_insomnia2{
+    color: #ff41a0;
+    font-size: 300%;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.h2_insomnia3{
+    color: #ff2424;
+    font-size: 300%;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+iframe{
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
 .fleche{
     width: 5%;
     margin-top: 20px;
@@ -282,6 +317,11 @@ header >div:nth-child(2){
 
 .text_insomnia h2{
     color: #ffa67b;
+}
+
+.text_insomnia a{
+    text-decoration: none;
+    color: white;
 }
 
 .photo_insomnia{
@@ -369,8 +409,8 @@ header >div:nth-child(2){
 
 .text_tournage a{
     text-decoration: none;
+    color: black;
 }
-
 
 .photo_tournage{
     background-image: url(images/photos/casting.jpg);
@@ -417,6 +457,7 @@ header >div:nth-child(2){
 
 .text_mmi a{
     text-decoration: none;
+    color: black;
 }
 
 .photo_mmi{
@@ -462,6 +503,7 @@ header >div:nth-child(2){
 
 .text_stage a{
     text-decoration: none;
+    color: black;
 }
 
 .photo_stage{
@@ -470,4 +512,51 @@ header >div:nth-child(2){
     background-size: cover;
     width: 600px;
     height: 400px;
+}
+
+.h2_stage1{
+    color: black;
+    font-size: 300%;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.h2_stage2{
+    color: black;
+    font-size: 300%;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.programme_mensuel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pm1{
+    height: 400px;
+    width: auto;
+}
+
+.pm2{
+    height: 400px;
+    width: auto;
+}
+
+.pm3{
+    height: 400px;
+    width: auto;
+}
+
+.pm4{
+    height: 400px;
+    width: auto;
+}
+
+.ps{
+    font-size: 200%;
+    margin-bottom: 50px;
 }
